@@ -1,0 +1,27 @@
+{
+  "keys": [
+    {
+      "station": "ST01",
+      "key_id": "k1",
+      "secret": "c3RhdGlvbi1zdC0xLXRlc3Qta2V5LXNlY3JldC0wMDAx",
+      "not_before": "2024-01-01T00:00:00Z",
+      "not_after": "2030-12-31T23:59:59Z",
+      "comment": "base64 of 'station-st-1-test-key-secret-0001'"
+    },
+    {
+      "station": "ST02",
+      "key_id": "k1",
+      "secret": "c3RhdGlvbi1zdC0yLXRlc3Qta2V5LXNlY3JldC0wMDAy",
+      "not_before": "2024-01-01T00:00:00Z",
+      "not_after": "2030-12-31T23:59:59Z"
+    },
+    {
+      "station": "ST03",
+      "key_id": "key-expired",
+      "secret": "ZXhwaXJlZC1rZXktZm9yLXRlc3Rpbmctb25seQ==",
+      "not_before": "2020-01-01T00:00:00Z",
+      "not_after": "2024-12-31T23:59:59Z",
+      "comment": "intentionally expired, used by the test suite"
+    }
+  ]
+}
